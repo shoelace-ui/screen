@@ -1,0 +1,15 @@
+
+// define default devices
+screen--devices ?= 'palm' 'phone' 'tablet' 'laptop' 'desktop' 'wide'
+
+// define default unit of measurement for `sizes`
+screen--unit ?= 240
+
+// init hash
+screen--sizes ?= {}
+
+// generate device sizes
+for name, i in screen--devices
+  low = (i*screen--unit)px
+  high = (((i+1)*screen--unit) - 1)px
+  screen--sizes[name] = (low high)

@@ -1,0 +1,14 @@
+{
+  "name": "shoelace-ui-screen",
+  "version": "0.1.0",
+  "description": "Screen size and device variables",
+  "repository": "https://github.com/shoelace-ui/screen.git",
+  "keywords": [
+    "shoelace",
+    "screen",
+    "size",
+    "device"
+  ],
+  "author": "Michael Andrew Vanasse <mail@mndvns.com>",
+  "license": "MIT"
+}
